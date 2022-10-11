@@ -1,0 +1,42 @@
+
+.row-card-todo-section{
+    width:80%;
+    margin: 0px auto 30px;
+    padding:40px 0px 30px;
+    border-bottom:  0.2px solid #d4d4d4;
+}
+
+.row-card-todo-title{
+    text-align:left;
+
+    h2{
+        text-align:left;
+        font-weight: 500;
+        margin: 0;
+        padding:5px 0px ;
+        font-size: 28px;
+    }
+
+    p{
+        font-size: 20px;
+        width: 100%;
+        text-align:left;
+        padding: 0;
+        font-weight: 400;
+        margin: 0px auto;
+        color:#696969;
+    }
+}
+
+.home-row-card-todo-content-container{
+    margin: 50px 0px 30px;
+    overflow-x: auto;
+    width: 100%;
+    display: flex;
+    gap : 15px;
+}
+
+.card-todo-content-information{
+    display:flex;
+    gap: 10px;
+}

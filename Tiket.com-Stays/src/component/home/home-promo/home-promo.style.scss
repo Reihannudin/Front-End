@@ -1,0 +1,166 @@
+
+.home-promo-section{
+    max-width:1500px;
+    margin:0 auto;
+    width: 100%;
+}
+
+.home-promo-container{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.home-card-banner-content-img{
+    width: 100%;
+    margin: 18px 0px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.home-promo-title{
+    text-align:left;
+    margin: 40px 0px;
+    font-weight: 500;
+    margin: 0;
+    padding:0px 0px ;
+    font-size: 28px;
+}
+
+
+.home-promo-banner-card{
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0
+}
+
+.home-promo-card-container{
+    display:grid;
+    grid-template-columns: 16% 16% 16% 16% 16% 16%;
+    width:100%;
+    gap: 8px;
+}
+
+.home-promo-card-section{
+    width: 100%;
+    margin: 18px 0px;
+}
+
+.home-promo-card-img{
+    max-width: 158px;
+    object-fit: cover;
+    cursor: pointer;
+    margin:0px 8px
+}
+
+
+.home-promo-banner-card-2{
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px 0
+}
+
+.home-promo-card{
+    width:158px;
+    // margin: 0 auto;
+    padding: 0;
+}
+
+.home-promo-banner-card-container{
+    display: grid;
+    margin: 15px 0;
+    grid-template-columns: 40% 60%;
+}
+
+.home-promo-banner-card-img{
+    width: 350px;
+}
+
+.home-promo-banner-card-text{
+    text-align: left;
+    margin: 20px 0 ;
+}
+
+.home-promo-card-title{
+    margin: 40px 0px;
+    font-weight: 600;
+    margin: 0;
+    padding:5px 0px ;
+    font-size: 28px;
+}
+
+.home-promo-card-text-container{
+    width:100%;
+    margin: 20px 0;
+    height: 200px;
+    overflow-y:auto;
+    border-left:   3px solid #0064D3;
+}
+
+.home-promo-card-text-box{
+    padding:0 15px;
+    margin: 15px 0;
+}
+
+.home-promo-card-text-title{
+    font-weight:600;
+    padding: 10px 0 0;
+    margin: 0;
+    font-size: 18px;
+}
+
+.home-promo-banner-card-container-2{
+    display: grid;
+    grid-template-columns: 65% 35%;
+}
+
+.btn-promo{
+    background-color: #FFFFFF;
+    padding:10px 20px 10px 0px;
+    outline: none;
+    font-size: 16px;
+    cursor: pointer;
+    color: #0064D3;
+    margin: 15px 0px;
+    border:  1px solid #ffffff;
+}
+
+.btn-promo:hover{
+    color: #0052b1;
+}
+
+.home-promo-banner-cards{
+    width: 80%;
+    margin: 0 auto;
+    // padding: 15px 0
+}
+
+.home-promo-card{
+    width: 100%;
+    position: relative;
+
+}
+
+.home-promo-slide-container{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    justify-content:space-between;
+}
+
+.home-promo0-slide-left-icon{
+    left: 10%;
+    padding: 5px;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    position: absolute;
+    box-shadow: 0 1px 2px rgb(117, 117, 117);
+}
+
+.home-promo0-slide-right-icon{
+    right: 10%;
+    padding: 5px;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgb(117, 117, 117);
+    position: absolute;
+}

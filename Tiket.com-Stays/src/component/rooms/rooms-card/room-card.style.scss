@@ -1,0 +1,165 @@
+
+.card-room-container{
+    width: 100%;
+    display: flex;
+    margin: 0px 0px 10px 0px;
+    position: relative;
+    cursor: pointer;
+    justify-content:space-between;
+    background-color:#FFFFFF;
+}
+
+.card-room-container:hover{
+    box-shadow: 3px 3px 10px -5px rgba(0, 0, 0, 0.4);
+}
+
+.card-room-img-container{
+    margin: 10px;
+    border-radius:8px;
+
+    img{
+        border-radius:8px;
+        width:250px;
+        height: 180px;
+        object-fit:cover;
+    }
+}
+
+.card-room-main-container{
+
+    width:100%;
+    text-align:left;
+    margin: 0 20px;
+
+    h2{
+        font-size: 18px;
+        font-weight:500;
+    }
+}
+
+.card-room-place-container{
+    display:flex;
+
+    ul{
+        margin: 0 30px;
+        padding: 0;
+        font-size: 14px;
+        height: 16px;
+    }
+
+    li{
+        text-decoration: underline;
+        color:#a3a3a3
+    }
+}
+
+.card-room-stars-container{
+    display:flex;
+    margin: 0;
+    padding: 0;
+    height: 16px;
+}
+
+.stars-card-rooms-icon{
+    color:#ffdc15;
+}
+
+.card-room-rating-container{
+    display: flex;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+
+    p{
+      margin: 10px 0px;
+      color: #0063d3;
+      font-size: 13px; 
+    }
+}
+
+.card-room-rating-box{
+    margin: 10px 0;
+    height: 20px;
+    padding: 0 10px;
+    border-radius: 4px 0 4px 0px;
+    background-color: #0063d3;
+    p{
+        font-size:14px;
+        padding: 0 ; 
+        margin: 0 ;
+        font-weight: 600;
+        color: #FFFFFF;
+    }
+}
+
+.card-room-service-container{
+    display:flex;
+}
+
+.card-room-service-box{
+    display:flex;
+    height: 16px;
+    margin: 0 10px 0 0px;
+    gap: 5px;
+
+    p{
+        font-size:14px;
+        padding: 0 ; 
+        margin: 0 ;
+        font-weight:400;
+        color: rgb(51, 153, 65);
+    }
+}
+
+.card-service-rooms-icon{
+    margin: 0;
+    font-weight: 400;
+    color:#5e5e5e;
+}
+
+.card-room-facility-container{
+    display: flex;
+    gap: 15px;
+    margin: 5px 0px;
+}
+
+.card-facility-rooms-icon{
+    height: 12px;
+    margin: 6px 0px;
+}
+
+.card-room-price-section{
+    // height: 42px;
+    position: absolute;
+    bottom: 33px;
+    right: 15px;
+}
+.card-room-price-container{
+    text-align: left;
+    
+    p{
+        font-size: 14px;
+        color: #5f5f5f;
+        margin: 0px 0;
+        padding: 0   
+    }
+}
+
+.card-room-price-box{
+    display: flex;
+    height: 28px;
+
+    p{
+       font-size: 12px;
+       color: #ff6868;
+       margin: 8px 0;
+       padding: 0;
+    }
+
+    h2{
+        font-size: 20px;
+        color: #ff6868;
+        margin: 0;
+        padding: 0;
+    }
+}

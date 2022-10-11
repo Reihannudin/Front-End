@@ -1,0 +1,118 @@
+.tab-content-popular-area-content-container-2{
+    margin: 0 auto 20px;
+    text-align: left;
+    padding:0;
+}
+
+.tab-content-popular-area-content-container{
+    text-align:left;
+}
+
+.tabs-layout-title-2{
+    width: 30%;
+    margin: 15px 10%;
+    text-align:left;
+}
+
+.tab-content-popular-area-content-2{
+    margin: 0  ;
+    padding: 0;
+    display:grid;
+    text-align: left;
+    grid-template-columns:25% 25% 25% 25%;
+}
+
+.tabs-layout-container {
+    width: 100%;
+    text-align:left;
+    margin: 0px auto;
+}
+
+.tabs-layout-title{
+    width: 30%;
+    text-align:left;
+    margin: 15px auto;
+}
+ 
+.tabs-id{
+    display: flex;
+    justify-content:start;
+}
+ 
+.tabs-id button {
+    background-color:transparent;
+    border: none;
+    color: #535353;
+    cursor: pointer;
+    padding: 25px 25px 10px 25px;
+    border-bottom:  1px solid #d4d4d4;
+    margin: 0 auto;
+    width: 100%;
+    font-size: 16px;
+    font-weight:700;
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease-out;
+}
+ 
+.tabs-id button:hover {
+    color: #888888;
+}
+ 
+.tabs-id button:disabled {
+    border-bottom:  1px solid #0064D3;
+    color: #0064D3;
+}
+ 
+.title {
+    color: black;
+    font-size: medium;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+ 
+.tabs-layout-content {
+    padding: 0px 80px 30px;
+    background-color: white;
+    font-weight: 300;
+    line-height: 30px;
+    font-size: 16px;
+    text-align: left;
+}
+
+.tab-content-popular-area-content-container{
+    margin: 0 auto 20px;
+    text-align: center;
+    padding:0;
+}
+
+.tab-content-popular-area-container{
+    text-align:left;
+}
+
+.tab-content-popular-area-content-2{
+    text-align:left;
+}
+
+
+.tab-content-popular-area-content{
+    margin: 0 auto ;
+    padding: 0;
+    display:grid;
+    text-align: center;
+    grid-template-columns:33% 33% 33%;
+}
+
+.tab-content-popular-area-content-title{
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    font-weight: 450;
+    color: #575757;
+}
+
+
+.tabs-layout-content-box{
+    text-align:left;
+    justify-content: start;
+}

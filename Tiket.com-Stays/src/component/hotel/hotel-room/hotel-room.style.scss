@@ -1,0 +1,144 @@
+
+.hotel-room-section{
+    width: 81%;
+    max-width: 1250px;
+    margin: 10px auto;
+}
+
+.hotel-room-container{
+    display: grid;
+    grid-template-columns: 30% 68%;    
+    justify-content: space-between;
+}
+
+.hotel-room-box-img{
+    width: 100%;
+    min-height: 250px;
+    border-radius: 6px;
+    overflow-x: hidden;
+    background-color: #FFFFFF;
+
+    img{
+        width: 100%;
+        height: 200px;
+        border-radius: 6px 6px 0px 0px;
+        object-fit:cover;
+    }
+
+    h2{
+        text-align: left;
+        font-size: 20px;
+        font-weight: 500;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+.hotel-room-content-facilities-icon{
+    margin: 0px 10px 0px 0px;
+}
+
+.hotel-room-box-content{
+    width: 100%;
+    height: 280px;
+    display:grid;
+    grid-template-columns: 70% 30%;
+    border-radius: 6px;
+    overflow-x: hidden;
+    background-color: #FFFFFF;
+}
+
+.hotel-room-hotels-content{
+    text-align:left;
+    margin:0px 30px;
+
+    h2{
+        font-size: 24px;
+        font-weight: 500;
+        color:#474747;
+        margin-bottom: 0px;
+    }
+}
+
+.hotel-room-hotel-facility{
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    padding:10px 0px;
+    margin-bottom: 5px;
+    border-bottom:  0.2px solid #d4d4d4;
+
+}
+
+.hotel-room-hotel-quantity{
+    padding: 7px 0px;
+
+    span{
+        text-align: left;
+        width: 150px;
+        margin: 10px 2px;
+        font-size: 14px;
+    }
+}
+
+.hotel-room-administration{
+    width: 86%;
+    text-align: right;
+    margin: 0px 15px;
+    position: relative;
+    border-left: 0.2px solid #d4d4d4;
+
+    p{
+        position: absolute;
+        top: 0;
+        right: 0;
+        color:#0064D3;
+        font-weight:500;
+    }
+
+}
+
+.hotel-room-price{
+
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 10px;
+    right: 0;
+
+    h4{
+        font-weight: 450;
+        margin: 0;
+        padding: 0px;
+        font-size: 20px;
+        color: #ff6868;
+    }
+
+    span{
+        margin: 5px 0px;
+        padding:0;
+        font-size: 14px;
+        font-weight:400;
+        color: #636363;
+    }
+
+}
+
+.hotel-room-price-btn{
+   button{
+    width:160px;
+    padding: 13px 0px;
+    border: none;
+    margin: 10px 0px;
+    outline: none;
+    color: #0064D3;
+    font-size:14px;
+    border-radius: 100px;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: #FFE604;
+   }
+
+   button:hover {
+        background-color:#F2DA00;
+   }
+}

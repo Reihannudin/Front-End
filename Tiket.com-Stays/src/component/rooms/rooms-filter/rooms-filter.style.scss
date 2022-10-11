@@ -1,0 +1,122 @@
+
+.filter-card-room-container-section{
+    margin: 0 auto;
+    width:100%
+}
+
+.filter-card-room-sections{
+    // border-top:   0.2px solid #d4d4d4;
+    width: 280px;
+    margin: 0px auto 10px ;
+    background-color: rgb(250, 250, 250);
+}
+
+
+.map-card-room-sections{
+    width:100%;
+    height:90px;
+    position: relative;
+    // margin: 10px;
+    background-color:rgb(255, 255, 255);
+}
+
+
+.map-card-room-container{
+    width: 95%;
+    height: 80px;
+    position:absolute;
+    top: 5px;
+    left: 7.5px;
+    object-fit: fill;
+    background-image: url("https://en.tiket.com/hotel/v3/assets/12b6f4f0.svg");
+    background-repeat: no-repeat;
+}
+
+
+.map-card-room-button{
+    position:relative;
+    margin: 7px auto;
+    button{
+        display:flex;
+        background-color:#0064D3;
+        padding:0px 10px;
+        color:#FFFFFF;
+        outline: none;
+        border: none;
+        // position: absolute;
+        // left: 80px;
+        margin: 18px auto;
+        border-radius:4px;
+
+        p{
+            color:#FFFFFF;
+            margin: auto 0;
+            padding: 0; 
+        }
+    }
+}
+
+
+.filters-rooms-icon{
+    color:#FFFFFF;
+    margin: 12.5px 10px;
+}
+
+
+.filter-card-room-section{
+    border-radius:4px;
+    background-color: #FFFFFF;
+}
+
+.filter-card-room-container{
+    margin: 10px 8px;
+    border-radius: 8px;
+}
+
+.filter-card-box-title{
+    cursor: pointer;
+    justify-content:space-between;
+    display:flex;
+    position: relative;
+    p{
+        margin: 10px 0;
+        padding: 0px 15px 0px; 
+        text-align: left;
+        // position: absolute;
+        // top: 10px;
+        font-size: 18px;
+        color:#505050;
+        font-weight: 500;
+    }
+}
+
+.filter-card-radio-box{
+    width: 100%;
+    text-align:left;
+}
+
+
+.filter-card-radio{
+   cursor: pointer;
+    width: 100%;
+    padding: 10px 0px 10px;
+    display: block;
+
+    input{
+        font: 15px;
+        color: #505050;
+        margin-right: 20px;
+        padding: 0px 10px 0px;
+        margin-left: 20px;
+    }
+}
+
+.filter-card-radio:hover{
+    background-color:#ecf5ff;
+}
+
+.filter-rooms-icon-2{
+    color: #0064D3;
+    height:20px;
+    margin: 14px 12px;
+}

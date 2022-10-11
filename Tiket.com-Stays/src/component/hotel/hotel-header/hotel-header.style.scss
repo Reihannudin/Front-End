@@ -1,0 +1,49 @@
+
+.hotel-section-header{
+    // position: absolute;
+    width: 100%;
+
+    // top:52px;
+    text-decoration: none;
+    // left:4.5%;
+    margin: 10px auto;
+    padding: 0px;
+    // border-radius: 6px;
+    background-color: #FFFFFF;
+}
+
+.header-link{
+    text-align: left;
+    margin: 0px ;
+    text-decoration: none;
+}
+
+.hotel-container-header{
+    display: flex;
+    gap: 10px;
+    margin: 0px auto;
+    width: 82%;
+    max-width: 1260px;
+}
+
+.hotel-box-header{
+    padding: 0 30px;
+    border-bottom: 2px solid #ffffff;
+    cursor: pointer;
+    text-decoration: none;
+
+    p{
+        color: #7e7e7e;
+        text-decoration: none;
+    }
+}
+
+.hotel-box-header:hover{
+    padding: 0 30px;
+    border-bottom: 2px solid #0064D3;
+    cursor: pointer;
+
+    p{
+        color: #0064D3;
+    }
+}

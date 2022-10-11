@@ -1,0 +1,265 @@
+.hotel-overview-container-section{
+    width: 100%;
+    max-width:1500px;
+    margin: 0 auto;
+}
+
+.hotel-overview-section{
+    width: 82%;
+    max-width: 1260px;
+    margin: 0px auto;
+    padding: 0px 0px 10px 0px
+}
+
+
+.search-hotel-overview-rooms-button-box-3{
+    margin:0 auto;
+    padding: 0;
+
+    button{
+        width:75%;
+        padding: 13px 0px;
+        border: none;
+        outline: none;
+        color: #FFFFFF;
+        font-size:19px;
+        border-radius: 30px;
+        cursor: pointer;
+        background-color: #0064D3;
+    }
+
+    button:hover{
+        background-color:#0059be;
+        color: #eeeeee;
+    }
+}
+
+
+
+.hotel-header-navigation-overview-container{
+    text-align: left;
+    padding: 15px 0;
+
+    span{
+        font-weight: 350;
+        margin-right: 10px;
+        cursor: pointer;
+        color: rgb(153, 153, 153);
+    }
+
+    span:hover{
+        color: rgb(110, 110, 110);
+        text-decoration: underline;
+    }
+}
+
+.hotel-header-navigation-overview-icon{
+    margin-right: 10px;
+    font-weight: 250;
+    color: rgb(153, 153, 153);
+}
+
+.hotel-header-search-overview{
+    max-width: 1500px;
+    background-color:#FFFFFF;
+    border : 1px solid #FFFFFF;
+    border-radius :12px;
+    
+    div{
+        border: none;
+        div{
+            width: 100%;
+            padding: 4px 0;
+            margin:auto 0px auto 8px;
+        }
+
+        div{
+            div{
+                text-align: left;
+            }
+        }
+    }
+}
+
+.hotel-overview-card-container{
+    width: 100%;
+    max-width:1500px;
+    background-color: #FFFFFF;
+}
+
+.hotel-overview-img-sections{
+    width: 100%;
+
+}
+
+.hotel-overview-img-container{
+    width: 100%;
+    display:grid;
+    margin: 20px 0px;
+    border-radius: 10px 0px;
+    grid-template-columns: 50% 50%;
+
+    img{
+        cursor:pointer;
+        border-radius:8px 0px 0px 8px;
+        width: 99%;
+        background-color: #030303;
+        min-width: 450px;
+        max-width: 626px;
+        height: 400px;
+        object-fit: cover;
+        opacity: 1;
+    }
+
+    img:hover{
+        background-color: #030303;
+        
+    }
+}
+
+.hotel-overview-img{
+    display:grid;
+    height: 400px;
+    grid-template-columns: 50% 50%;
+}
+
+.hotel-overview-img-lt-1{
+    min-width: 230px;
+    width: 100%;
+    max-width: 315px;
+    height: 197px;
+    margin-bottom: 3px;
+    gap: 10px;
+    img{
+        border-radius:0px;
+        min-width: 230px;
+        width: 98%;
+        max-width: 315px;
+        height: 197px;
+        object-fit: cover;
+    }
+}
+
+.hotel-overview-img-lt-2{
+    min-width: 230px;
+    width: 100%;
+    max-width: 315px;
+    height: 197px;
+    margin-top:3px;
+    gap: 10px;
+    img{
+        border-radius:0px;
+        min-width: 230px;
+        width: 98%;
+        max-width: 315px;
+        height: 197px;
+        object-fit: cover;
+    }
+}
+
+.border-side-2-up{
+    border: 0px 0px 0px 8px ;
+}
+
+.border-side-2-down{
+    border: 0px 8px 0px 0px ;
+    
+}
+
+.hotel-overview-content-container{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+}
+
+.hotel-overview-content-hotel{
+    text-align:left;
+    margin: 0px 20px;
+    
+    span{
+        margin: 5px 0px;
+        padding:0;
+        color: #030303;
+    }
+
+    h2{
+        font-weight: 450;
+        margin: 0;
+        padding: 0px 0px 10px ;
+        font-size: 28px; 
+    }
+}
+
+.hotel-overview-content-price{
+    text-align: right;
+    margin: 0px 15px;
+
+    span{
+        margin: 5px 0px;
+        padding:0;
+        
+        color: #030303;
+    }
+
+    h3{
+        font-weight: 450;
+        margin: 5px 0 8px;
+        padding: 0px;
+        font-size: 20px;
+        color: #ff6868;
+    }
+
+    p{
+        margin: 0px 0px;
+        padding:0;
+        font-size: 14px;
+        font-weight:350;
+        color: #a3a3a3;
+    }
+
+    div{
+        margin: 5px 0px ;
+        padding: 0;
+
+    button{
+        min-width: 140px;
+        width:100%;
+        padding: 10px 12px;
+        border: none;
+        margin: 8px 0px;
+        outline: none;
+        color: #FFFFFF;
+        font-size:12px;
+        border-radius: 30px;
+        cursor: pointer;
+        background-color: #0064D3;
+    }
+    }
+
+}
+
+.overview-date{
+    width: 100%;
+}
+
+.hotel-overview-calendar{
+    max-width: 700px;
+    width: 100%;
+    position:absolute;
+}
+
+.search-rooms-box-container{
+    width: 100%;
+    text-align:center;
+}
+
+.overview-date{
+    margin: 0;
+    width: 100%;
+    padding: 0;
+}
+
+.stays-search-calendar{
+    text-align:center;
+    width:100%;
+}
