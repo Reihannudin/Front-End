@@ -1,0 +1,15 @@
+
+.rooms-section{
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(250, 250, 250);
+}
+
+.rooms-container{
+    width:80%;
+    margin: 0 auto;
+    max-width: 1250px;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 25% 70%;
+}
